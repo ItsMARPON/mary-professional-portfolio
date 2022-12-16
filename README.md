@@ -8,7 +8,10 @@ Install web browser like Chrome, Firefox, Microsoft Edge to view the website.
 
 The following links are the images used in the website.
 
+The profile picture shown on professional portfolio website:
 <a href="./assets/css/images/Profile1.jpg">My profile picture for the Professional Portfolio</a>
+
+A screenshot of me playing Roblox, with hopes to develop a game in the future:
 <a href="./assets/css/images/Fungame.png">A picture of me playing a game in Roblox</a>
 
 # Credits
