@@ -1,11 +1,16 @@
 * {
     margin: 1px;
     padding:5px;  
+    box-sizing: border-box;
+    justify-content: center;
+  
   }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
     text-align: center;
 }
 
@@ -16,24 +21,59 @@ header {
 }
 
 body {
-    position: relative;
-    font-size: 20px;
+    font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: #fdfcfc;
-    color: #121111;
+    background-color: aliceblue;
+    justify-content: center;
   }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  justify-content: center;
+}
 
 
+#AboutMe{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(74, 201, 243);
+    color: black;
+}
+#AboutMeInfo{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    background-color: rgb(74, 201, 243);
+    color: black;
+
+}
+
+#BigProjects {
+    display: flex;
+    justify-content:center;
+    padding: 5px;
+    background: #accbf4;
+    color: rgb(15, 15, 16);
+}
   
 .text-right {
     text-align: right;
     color: #1e1d1d;
   }
 
-.contact Me{
-    text-align: center;
+
+.card {
+  flex: 1 0 200px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
 }
+
 
 li {
     display: inline-block;
@@ -41,7 +81,9 @@ li {
     font-size: 25px;
   }
 
+
 #item-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #baf667;
   }
   
@@ -53,12 +95,27 @@ li {
     background-color: #fdfda7;
   }
 
+
 #Image-4 {
     display: flex;
     display: block 200px 200px;
+    width: 100%;
+    min-width: 400px;
+}
+#Image-5 {
+  display: flex
+  width: 15%;
+  min-width: 100px;
 }
 
+#ContactMe {
+    border: #8eccf3;
+    font-size: 45px;
+    justify-content: center;
+}
 footer {
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    display:flexbox
 }
